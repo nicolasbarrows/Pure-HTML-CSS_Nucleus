@@ -1,0 +1,15 @@
+* {
+    background-color: #fefefe;
+}
+.nav-menu {
+    background-color: #bbb;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.splash {
+    background-color: purple;
+    color:#eee
+}
