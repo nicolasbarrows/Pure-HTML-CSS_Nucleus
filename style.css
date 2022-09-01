@@ -1,8 +1,12 @@
 * {
     background-color: #fefefe;
 }
-.nav-menu {
-    background-color: #bbb;
+
+h1 {
+    font-size: 45px;
+}
+li {
+    display: inline;
 }
 main {
     display: flex;
@@ -10,6 +14,37 @@ main {
 }
 
 .splash {
-    background-color: purple;
-    color:#eee
+display: flex;
+flex-direction:column;
 }
+#splash-Text {
+    min-width: 55vw;
+}
+#splash-img {
+    max-height: 80vh;
+}
+
+@media only screen and (min-width: 998px)
+{
+    .splash {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50vh 50vh;
+        width: 100vw;
+        }
+
+    #splash-Text {
+        grid-column: 1 2;
+        grid-row: 1 2;
+    }
+
+    #splash-img {
+    grid-column: 2 3;
+    grid-row: 1 3;
+    }
+    #splash-button {
+        grid-column: 1 2;
+        grid-row: 2 3;
+    }
+}
+
