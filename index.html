@@ -2,55 +2,71 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <nav class="nav-menu">
+      <nav>
         <ul>
           <li class="nav-button">
-            Products
-            <!--
-            <ul>
-              <li class="nav-drop-button">Launcher</li>
-              <li class="nav-drop-button">Prayer</li>
-              <li class="nav-drop-button">Flows</li>
-              <li class="nav-drop-button">Giving</li>
-              <li class="nav-drop-button">People + Messages</li>
-              <li class="nav-drop-button">Web + Sermons</li>
-              <li class="nav-drop-button">Media</li>
-            </ul>
-            -->
+            <a id="nav-button-text" href="#">Products</a>
           </li>
-          <li class="nav-button">Pricing</li>
-          <li class="nav-button">Results</li>
-          <li class="nav-button">About</li>
-          <li class="nav-button">Learn</li>
+          <li class="nav-button">
+            <a id="nav-button-text" href="#">Pricing</a></li>
+          <li class="nav-button">
+            <a id="nav-button-text" href="#">Results</a>
+          </li>
+          <li class="nav-button">
+            <a id="nav-button-text" href="#">About</a>
+          </li>
+          <li class="nav-button">
+            <a id="nav-button-text" href="#">Learn</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
         <section class="splash">
             <div id="splash-Text">
-                <p>EMOJIS<br><span id="bold-paragraph">With Nucleus we've ended the battle of “Where do we point people?!”</span> -- John Doe, Expert</p>
+                <p>&#11088 &#11088 &#11088 &#11088 &#11088<br><span id="bold-paragraph">With Nucleus we've ended the battle of 'Where do we point people?!'</span> -- John Doe, Expert</p>
                 <h1>Make it easy for your church to take a next step toward Jesus.</h1>
                 <h2>It all starts with using the forever free <a href="#" class="splash-underline">Next Steps Launcher</a>, and <a href="#" class="splash-underline">free church prayer wall & prayer request system</a>. Then, all our products work together to help you see a church full of active participants -- not passive spectators.</h2>
             </div>
             <div>
-                <img src="nucleus-demo-img.png" alt="demo image displaying the Nucleus Launcher in action"id="splash-img">
+                <img src="photos/launcher-home-screen-website-background.7dc9a324.png" alt="demo image displaying the Nucleus Launcher in action"id="splash-img">
             </div>
             <div id="splash-button">
                 <button>Get the free tools for your church</button>
-                <p>Inventore hic dolor aperiam!</p>
+                <p><span>Join over 531,683+ people using Nucleus each week.</span><br>No credit card required.</p>
             </div>
         </section>
-        <section class="testimonials"></section>
-        <section class="video-wheel"></section>
-        <section class="midmenu"></section>
-        <section class="photo-wheel"></section>
-        <section class="letter"></section>
-      <section class="about-us"></section>
-      <section class="stories"></section>
+        <section id="testimonials">
+            <div class="Emoji-Card">
+                <div class="Emoji">
+                    <p>💒</p>
+                </div>
+                <div class="Card-Light" id="testimonial1">
+                    <p>"For the first time, <span class="highlight">70% of our church is connected to groups, just because it was easier to take a next step!</span>"</p>
+                </div>
+            </div>
+            <div class="Card-Light" id="testimonial2">
+                <p>Testimonial #2</p>
+            </div>
+            <div class="Card-Light" id="testimonial3">
+                <p>Testimonial #3</p>
+            </div>
+        </section>
+        <section class="Card-Dark" id="videoWheel"></section>
+        <section class="Card-Light" id="midmenu"></section>
+        <section class="Card-Light" id="photoWheel"></section>
+        <section class="Card-Light" id="letter"></section>
+      <section class="Card-Light" id="aboutUs"></section>
+      <section class="Card-Dark" id="stories"></section>
       <section class="final-call"></section>
     <main>
   </body>
